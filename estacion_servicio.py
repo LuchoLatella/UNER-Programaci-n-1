@@ -18,5 +18,5 @@ print ("En total fué: litros" , surtidor_3 ,"Recaudado: " , resultado_3)
 
 litros_vendidos = surtidor_1 + surtidor_2 + surtidor_3
 recaudacion_total = resultado_1 + resultado_2 + resultado_3
-print ("Cantidad de listros vendidos: ", litros_vendidos)
+print ("Cantidad de litros vendidos: ", litros_vendidos)
 print ("Dinero total recaudado:", recaudacion_total)
