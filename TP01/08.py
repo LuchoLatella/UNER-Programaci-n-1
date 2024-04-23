@@ -1,4 +1,4 @@
-#Escriba un programa que permita al usuario ingresar la base y altura de un triángulo para luego imprimir por pantalla la superficie total.
+# Escriba un programa que permita al usuario ingresar la base y altura de un triángulo para luego imprimir por pantalla la superficie total.
 
 nombre = input ("Ingrese su nombre: ")
 base_triangulo = float(input ("Bienvenido " + nombre + ", ingrese el tamaño de la base: " ))

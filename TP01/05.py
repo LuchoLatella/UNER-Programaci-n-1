@@ -1,6 +1,6 @@
-#Escriba un programa que pida al usuario que ingrese 3 números. Sume los dos primeros y 
-#luego multiplique este total por el tercero. Mostrar la respuesta en pantalla de la siguiente
-#forma: “La respuesta es XX”.
+# Escriba un programa que pida al usuario que ingrese 3 números. Sume los dos primeros y 
+# luego multiplique este total por el tercero. Mostrar la respuesta en pantalla de la siguiente
+# forma: “La respuesta es XX”.
 
 nombre = input ("Ingrese su nombre: ")
 numero_1 = float(input ("Bienvenido " + nombre + ", ingrese un número: " ))

@@ -1,4 +1,4 @@
-#Pida al usuario un número x de días y luego mostrar por pantalla cuántas horas, minutos y segundos son esos números de días.
+# Pida al usuario un número x de días y luego mostrar por pantalla cuántas horas, minutos y segundos son esos números de días.
 
 nombre_1 = input ("Ingrese su nombre por favor: ")
 dias_usuario = int(input ("Binevenido " + nombre_1 + ", ingrese la cantidad de días: "))

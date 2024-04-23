@@ -1,4 +1,4 @@
-#Pida al usuario que ingrese 2 números para luego sumarlos y mostrar en pantalla: “La respuesta es XX”.
+# Pida al usuario que ingrese 2 números para luego sumarlos y mostrar en pantalla: “La respuesta es XX”.
 
 nombre = input ("Ingrese su nombre: ")
 numero_1 = float(input ("Bienvenido " + nombre + ", ingrese un número: " ))
