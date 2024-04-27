@@ -18,6 +18,20 @@ surtidor_1 = ingresar_litros_vendidos(1)
 surtidor_2 = ingresar_litros_vendidos(2)
 surtidor_3 = ingresar_litros_vendidos(3)
 
+resultado_1 = recaudacion_por_surtidor(1, surtidor_1)
+resultado_2 = recaudacion_por_surtidor(2, surtidor_2)
+resultado_3 = recaudacion_por_surtidor(3, surtidor_3)
+
+litros_vendidos = surtidor_1 + surtidor_2 + surtidor_3
+recaudacion_total = resultado_1 + resultado_2 + resultado_3
+print("Cantidad de litros vendidos: ", litros_vendidos)
+print("Cantidad de dinero recaudado: ", recaudacion_total)
+
+promedio_litros_vendiddos = litros_vendidos/3
+print("El promedio de litros vendidos en el día es: ", promedio_litros_vendiddos)
+
+
+
 #print ("Surtidor 1 :", surtidor_1)
 #print ("Surtidor 2 : ", surtidor_2)
 #print ("Surtidor 3 : ", surtidor_3)
