@@ -7,7 +7,25 @@ nombre = input ("Ingrese su nombre: ").lower()
 apellido = input ("Ingrese su apellido: ").lower()
 anio_nacimiento = input ("Ahora, ingrese el año de su nacimiento por favor: ")
 
-usuario = nombre [0:1] + apellido
-contrasenia = nombre [0:1] + apellido [0:1] + "." + anio_nacimiento
+def crear_usuario(nombre, apellido, anio_nacimiento):
+    usuario = nombre [0:1] + apellido
+    contrasenia = nombre [0:1] + apellido [0:1] + "." + anio_nacimiento
+    return usuario, contrasenia
 
-print ("Usuario: " + usuario + " Contraseña: " + contrasenia)
+usuario, contrasenia = crear_usuario(nombre, apellido, anio_nacimiento)
+
+print(f"Usuario: ", usuario)
+print(f"Contraseña: ", contrasenia)
+    
+
+
+
+#print (f"Usuario: ", "Contraseña: ", contrasenia)
+
+
+
+
+#usuario = nombre [0:1] + apellido
+#contrasenia = nombre [0:1] + apellido [0:1] + "." + anio_nacimiento
+
+#print ("Usuario: " + usuario + " Contraseña: " + contrasenia)
