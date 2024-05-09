@@ -5,35 +5,32 @@
 #d. Por último, su factorial.
 
 def num_impares(numero):
-    impares = [str(n) for n in range(1, numero + 1, 2)]
-    return ", ".join(impares)
+    for n in range(1, numero+1, 2):
+        return ", ".join(num_impares)
 
 def cuenta_atras(numero):
-    countdown = [str(n) for n in range(numero, -1, -1)]
-    return ", ".join(countdown)
+    while numero > 0:
+        numero = numero -1
+        return ", ".join(cuenta_atras)
 
 def es_primo(numero):
-    if numero <= 1:
-        return False
     for n in range(2, int(numero**0.5) + 1):
         if numero % n == 0:
             return False
-    return True
-
+        return True
+    
 def calculo_factorial(numero):
-    if numero == 0:
-        return 1
-    else:
-        return numero * calculo_factorial(numero - 1)
+    factorial = numero * factorial(numero-1)
+    return factorial
 
 def resultado():
-    num_usuario = int(input("Ingrese un numero entero positivo: "))
+    num_usuario = int(input( "Ingrese un numero entero positivo: "))
 
     impares = num_impares(num_usuario)
-    print(f"Números impares desde 1 hasta {num_usuario}: {impares}")
+    print(f"Números impares desde 1 hasta´{impares}: {impares}")
 
     cuenta_regresiva = cuenta_atras(num_usuario)
-    print(f"Cuenta atrás desde {num_usuario} hasta 0: {cuenta_regresiva}")
+    print(f"Cuenta atrás desde {num_usuario} hasta 0 {cuenta_regresiva}")
 
     if es_primo(num_usuario):
         print(f"{num_usuario} es un número primo")
@@ -43,4 +40,5 @@ def resultado():
     factor = calculo_factorial(num_usuario)
     print(f"factorial de {num_usuario} es {factor}")
 
-resultado()
+mostrar_resultado = resultado()
+print(mostrar_resultado)
