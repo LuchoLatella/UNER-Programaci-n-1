@@ -1,0 +1,7 @@
+def mostrar_palabra_10_veces():
+    palabra = input("Por favor, ingresa una palabra: ")
+    for _ in range(10):
+        print(palabra)
+
+# Llamar a la función
+mostrar_palabra_10_veces()
