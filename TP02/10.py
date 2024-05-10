@@ -5,8 +5,17 @@
 #d. Por último, su factorial.
 
 def num_impares(numero):
-    impares = [str(n) for n in range(1, numero + 1, 2)]
-    return ", ".join(impares)
+    impares = ""
+    for n in range(1,numero+1,2):
+        if n == 1:
+            impares += str(n)
+        else:
+            impares += ", " + str(n)
+    return impares
+            
+#def num_impares(numero):
+#    impares = [str(n) for n in range(1, numero + 1, 2)]
+#    return ", ".join(impares)
 
 def cuenta_atras(numero):
     countdown = [str(n) for n in range(numero, -1, -1)]
