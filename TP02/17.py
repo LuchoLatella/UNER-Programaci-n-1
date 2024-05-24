@@ -14,5 +14,5 @@ def mostrar_numero_primos(minimo, maximo):
     print(f"Números primos entre {minimo} y {maximo}: {primos}")
     print(f"Hay {len(primos)} números primos entre {minimo} y {maximo}.")
 
-# Llamar a la función para mostrar los números primos entre 0 y 100 e imprimir cuántos son
+
 mostrar_numero_primos(0, 100)
