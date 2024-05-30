@@ -12,5 +12,17 @@
 
 paises = ["Argentina", "Brasil", "Bolivia", "Paraguay", "Venezuela"]
 
+#a.
 print(f"Cantidad de ítems en países es:",len(paises))
-print(f"Primer país de la lista es {paises[0]}, el último es {paises[4]}")
+#b.
+print(f"Primer país de la lista es {paises[0]}, el último es {paises[-1]}")
+#c.
+print(f"Resto de los países: {paises[1:-1]}")
+#d.
+pais_usuario = input("Por favor, ingrese un país: ")
+
+if pais_usuario in paises:
+    indice = paises.index(pais_usuario)
+    print(f"El país '{pais_usuario}' se encuentra en la lista en el índice {indice}.")
+else:
+    print(f"El país '{pais_usuario}' no se encuentra en la lista.")
