@@ -26,3 +26,11 @@ if pais_usuario in paises:
     print(f"El país '{pais_usuario}' se encuentra en la lista en el índice {indice}.")
 else:
     print(f"El país '{pais_usuario}' no se encuentra en la lista.")
+
+numero_usuario = int(input(f"Por favor, ingrese un número entre 0 y {len(paises) - 1}:"))
+if 0 <= numero_usuario < len(paises):
+    pais_borrado = paises[numero_usuario]
+    paises.remove(pais_borrado)
+    print(f"Se ha eliminado '{pais_borrado}' de la lista.")
+else:
+    print(f"El número está fuera del rango. Ingrese un número entre 0 y {len(paises) - 1}.")
