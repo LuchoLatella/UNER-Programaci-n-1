@@ -14,11 +14,17 @@ paises = ["Argentina", "Brasil", "Bolivia", "Paraguay", "Venezuela"]
 
 #a.
 print(f"Cantidad de ítems en países es:",len(paises))
+
 #b.
+
 print(f"Primer país de la lista es {paises[0]}, el último es {paises[-1]}")
+
 #c.
+
 print(f"Resto de los países: {paises[1:-1]}")
+
 #d.
+
 pais_usuario = input("Por favor, ingrese un país: ")
 
 if pais_usuario in paises:
@@ -34,3 +40,13 @@ if 0 <= numero_usuario < len(paises):
     print(f"Se ha eliminado '{pais_borrado}' de la lista.")
 else:
     print(f"El número está fuera del rango. Ingrese un número entre 0 y {len(paises) - 1}.")
+
+# Imprimir la lista en orden inverso.
+
+print("Lista de países al revés:", list(reversed(paises)))
+
+# Vaciar la lista.
+
+paises.clear()
+
+print("Lista vacía de países:", paises)
