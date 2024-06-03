@@ -8,7 +8,7 @@
 # listas
 
 def mostrar_menu():
-    print("\nOpciones:")
+    print("Opciones:")
     print("1. Agregar nueva tarea pendiente")
     print("2. Marcar tarea pendiente como terminada")
     print("3. Mostrar listas de tareas")
@@ -69,7 +69,7 @@ def mostrar_tareas():
         elif opcion == '3':
             mostrar_listas(tareas_pendientes, tareas_terminadas)
         elif opcion == '4':
-            print("Saliendo del programa.")
+            print("Saliendo del programa / tareas terminadas.")
             break
         else:
             print("Opción no válida, por favor intente de nuevo.")
