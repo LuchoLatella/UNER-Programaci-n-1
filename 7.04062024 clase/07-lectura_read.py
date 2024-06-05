@@ -1,0 +1,5 @@
+obj_archivo = open('jugadores-liverpool.txt', 'rt', encoding='utf-8')
+cadena = obj_archivo.read()
+obj_archivo.close()
+print("cadena:", cadena)
+print("longitud:", len(cadena))
