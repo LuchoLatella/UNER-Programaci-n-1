@@ -29,14 +29,14 @@ fahrenheit = 77
 celsius = convertir_fahrenheit_celsius(fahrenheit)
 print(f"{fahrenheit} ºF es igual a {celsius:.2f} ºC")
 
-#temperatura = float(input("Ingrese la temperatura: "))
-# escala = input("Ingrese la escala a la que desea convertir (F para Fahrenheit, C para Celsius): ").upper()
+temperatura = float(input("Ingrese la temperatura: "))
+escala = input("Ingrese la escala a la que desea convertir (F para Fahrenheit, C para Celsius): ").upper()
 
-# if escala == 'F':
-#     resultado = convertir_celsius_fahrenheit(temperatura)
-#     print(f"{temperatura} ºC es igual a {resultado:.2f} ºF")
-# elif escala == 'C':
-#     resultado = convertir_fahrenheit_celsius(temperatura)
-#     print(f"{temperatura} ºF es igual a {resultado:.2f} ºC")
-# else:
-#     print("Escala no válida. Por favor ingrese 'F' para Fahrenheit o 'C' para Celsius.")
+if escala == 'F':
+    resultado = convertir_celsius_fahrenheit(temperatura)
+    print(f"{temperatura} ºC es igual a {resultado:.2f} ºF")
+elif escala == 'C':
+    resultado = convertir_fahrenheit_celsius(temperatura)
+    print(f"{temperatura} ºF es igual a {resultado:.2f} ºC")
+else:
+    print("Escala no válida. Por favor ingrese 'F' para Fahrenheit o 'C' para Celsius.")
