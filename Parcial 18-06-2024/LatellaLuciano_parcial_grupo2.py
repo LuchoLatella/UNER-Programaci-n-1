@@ -10,8 +10,8 @@ def temperatura_diaria_usuario():
     print("\nTemperaturas ordenadas de menor a mayor:")
     print(temperaturas_ordenadas)
 
-    promedio_temeperaturas = sum(temperaturas) / len(temperaturas)
-    print(f"\nEl promedio de la temperatura de la semana es: {promedio_temeperaturas} °C.")
+    promedio_temperaturas = sum(temperaturas) / len(temperaturas)
+    print(f"\nEl promedio de la temperatura de la semana es: {promedio_temperaturas} °C.")
 
     temperaturas_cadena = ', '.join(map(str, temperaturas))
     print(f"\nTodas las temperaturas como cadena separadas por comas: {temperaturas_cadena}")
