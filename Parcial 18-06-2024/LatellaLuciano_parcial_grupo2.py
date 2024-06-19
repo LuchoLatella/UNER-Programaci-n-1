@@ -20,7 +20,6 @@ def temperatura_diaria_usuario():
     for grados in temperaturas:
         if grados >= 24:
             dias_calurosos += 1
-    
     print(f"\nCantidad de días con temperatura mayor o igual a 24 °C: {dias_calurosos}")
 
 
